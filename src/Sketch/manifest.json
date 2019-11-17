@@ -1,0 +1,36 @@
+{
+  "name": "Ditto",
+  "version": "0.9",
+  "compatibleVersion": 60,
+  "description": "Replace symbols and reset their size and name to its origin.",
+  "identifier": "ditto",
+  "author": "Kathi Winter & Sascha Wohlgemuth",
+  "authorEmail": "hello@saschawohlgemuth.com",
+  "icon": "icons/ditto-icon.jpg",
+  "suppliesData": true,
+  "commands": [
+    {
+      "name": "Ditto",
+      "script": "command.js",
+      "handlers": {
+        "run": "onRun",
+        "onDocumentChanged": "listenerFunction",
+        "actions": {
+            "ReplaceWithSymbol": "setSizeToOrigin"
+        },
+        "identifier": "open"
+      }
+    },
+    {
+      "name": "Settings",
+      "script": "settings.js",
+      "identifier": "settings"
+    }
+  ],
+  "menu": {
+    "title": "Ditto",
+    "items": [
+      "Settings (Soon)"
+    ]
+  }
+}
