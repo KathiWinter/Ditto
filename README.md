@@ -13,6 +13,6 @@
 * Reset the size of replaced symbols to its masters origin
 
 ### Roadmap (v1.0)
-* Toggle setting options: Resize and rename 
-* Instant symbol update of the replaced layer when replacing it using the symbols dropdown in the inspector
+* Toggle settings options: Resize and rename 
+* Instant symbol update when using the symbols dropdown in the inspector
 * More TBD
