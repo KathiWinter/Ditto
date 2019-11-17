@@ -1,4 +1,4 @@
-![alt text](https://github.com/KathiWinter/Ditto/blob/master/ditto-cover.png "Ditto Sketch Plugin")
+![alt text](https://github.com/KathiWinter/Ditto/blob/master/ditto-cover-git.png "Ditto Sketch Plugin")
 
 # Ditto
 **Ditto is a Sketch Plugin that automatically resets size and name of replaced symbols.**
